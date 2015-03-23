@@ -1,0 +1,38 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- 使用actionbarsherlock库自定义应用程序的主题 -->
+ 	<style name="EduTheme" parent="Theme.Sherlock.Light">
+ 	    <item name="actionBarStyle">@style/EduThemeActionBar</item>
+ 	    <item name="android:actionBarStyle">@style/EduThemeActionBar</item>
+ 	</style>
+ 	
+ 	<style name="EduThemeActionBar" parent="Widget.Sherlock.ActionBar">
+        <item name="android:background">@color/title_color</item>
+        <item name="background">@color/title_color</item>
+        <item name="android:titleTextStyle">@style/EduThemeActionBarTitleTextStyle</item>
+        <item name="titleTextStyle">@style/EduThemeActionBarTitleTextStyle</item>
+    </style>
+
+    <style name="EduThemeActionBarTitleTextStyle" parent="TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/title_size</item>
+    </style>
+    
+</resources>

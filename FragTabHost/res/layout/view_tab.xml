@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0.0dip"
+    android:layout_weight="1"
+	android:layout_height="wrap_content"
+    android:background="@drawable/bottom_nav_bg" >
+    
+    <TextView android:id="@+id/tab_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@drawable/bottom_nav_text_selector"
+        android:text="@string/homepage"
+        android:textSize="11.0sp"/>
+
+</RelativeLayout>

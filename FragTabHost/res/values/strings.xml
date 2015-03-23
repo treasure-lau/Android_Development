@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">FragmentTabHost实例</string>
+
+    <!-- activity_main -->
+    <string name="homepage">首页</string>
+    <string name="safe">安全</string>
+    <string name="app">应用</string>
+    
+</resources>
